@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.container {
+  max-width: 400px;
+  margin: 230px auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 95px 39px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label,
+input,
+button {
+  
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #127a94;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
